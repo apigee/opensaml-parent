@@ -11,7 +11,7 @@
 
     <groupId>io.apigee.opensaml</groupId>
     <artifactId>opensaml-parent</artifactId>
-    <version>1</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Shibboleth Project V2 Super POM</name>
