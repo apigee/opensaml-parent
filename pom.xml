@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+	<groupId>org.sonatype.oss</groupId>
+	<artifactId>oss-parent</artifactId>
+	<version>7</version>
+    </parent>
+    
+    <groupId>io.apigee.opensaml</groupId>
+    <artifactId>opensaml-parent</artifactId>
+    <version>2.6.2-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>OpenSAML-J</name>
+    <description>
+        The OpenSAML-J library provides tools to support developers working with the Security Assertion Markup Language
+        (SAML).
+    </description>
+    
+    <properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <inceptionYear>2006</inceptionYear>
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Internet2</name>
+        <url>http://www.internet2.edu/</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>cantor</id>
+            <name>Scott Cantor</name>
+            <organization>The Ohio State University</organization>
+            <organizationUrl>http://www.ohio-state.edu/</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+        <developer>
+            <id>ndk</id>
+            <name>Nate Klingenstein</name>
+            <organization>Internet2</organization>
+            <organizationUrl>http://www.internet2.edu/</organizationUrl>
+            <roles>
+                <role>documentation</role>
+            </roles>
+            <timezone>-7</timezone>
+        </developer>
+        <developer>
+            <id>lajoie</id>
+            <name>Chad La Joie</name>
+            <organization>Itumi, LLC</organization>
+            <organizationUrl>http://itumi.biz</organizationUrl>
+            <roles>
+                <role>developer</role>
+                <role>documentation</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+        <developer>
+            <id>putmanb</id>
+            <name>Brent Putman</name>
+            <organization>Georgetown University</organization>
+            <organizationUrl>http://www.georgetown.edu/</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+        <developer>
+            <id>rdw</id>
+            <name>Rod Widdowson</name>
+            <organization>University of Edinburgh</organization>
+            <organizationUrl>http://www.ed.ac.uk/</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+    </developers>
+</project>
