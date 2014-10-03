@@ -11,7 +11,7 @@
 
     <groupId>io.apigee.opensaml</groupId>
     <artifactId>opensaml-parent</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <packaging>pom</packaging>
 
     <name>Shibboleth Project V2 Super POM</name>
@@ -28,13 +28,13 @@
         <maven.compiler.target>1.6</maven.compiler.target>
 
         <slf4j.groupId>org.slf4j</slf4j.groupId>
-        <slf4j.version>1.7.5</slf4j.version>
+        <slf4j.version>1.7.7</slf4j.version>
         <spring.groupId>org.springframework</spring.groupId>
         <spring.version>2.5.6.SEC03</spring.version>
         <xalan.groupId>xalan</xalan.groupId>
         <xalan.version>2.7.1</xalan.version>
-        <xerces.groupId>org.apache.xerces</xerces.groupId>
-        <xerces.version>2.10.0</xerces.version>
+        <xerces.groupId>xerces</xerces.groupId>
+        <xerces.version>2.9.1</xerces.version>
         <xmlresolver.groupId>xml-resolver</xmlresolver.groupId>
         <xmlresolver.version>1.2</xmlresolver.version>
     </properties>
@@ -262,9 +262,9 @@
 
             <!-- Runtime dependencies -->
             <dependency>
-                <groupId>${xerces.groupId}</groupId>
+                <groupId>${xalan.groupId}</groupId>
                 <artifactId>serializer</artifactId>
-                <version>${xerces.version}</version>
+                <version>${xalan.version}</version>
                 <scope>runtime</scope>
             </dependency>
             <dependency>
@@ -272,12 +272,6 @@
                 <artifactId>xalan</artifactId>
                 <version>${xalan.version}</version>
                 <scope>runtime</scope>
-                <exclusions>
-                    <exclusion>
-                        <groupId>${xalan.groupId}</groupId>
-                        <artifactId>serializer</artifactId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>${xerces.groupId}</groupId>
